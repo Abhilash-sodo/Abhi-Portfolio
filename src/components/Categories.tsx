@@ -31,10 +31,11 @@ const Categories = ({
       </button>
       {categories.map((cat) => (
         <button
+          key={cat.id}
           onClick={() => setSelectedCategoryId(cat.id)}
           className={`${selectedCategoryId == cat.id && "bg-purple-500"
           } bg-black border-purple-500 border-[1px] text-white font-bold py-2 px-4 rounded-lg`}
-        >
+          >
           {cat.name}
         </button>
       ))}

@@ -1,6 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { HoveredLink, Menu, MenuItem, ProductItem } from "./ui/navbar-menu";
+import Image from 'next/image';
 
 const Navbar = () => {
   const [active, setActive] = useState<string | null>(null);
@@ -8,7 +9,7 @@ const Navbar = () => {
     <div className="relative w-full flex items-center justify-center text-white">
       <div className="fixed top-0 w-full z-[1000] shadow-md shadow-purple-500 bg-black">
         <div className="flex justify-between py-2 px-5">
-          <img src="/logo.png" width={90} alt="" />
+          <image xlinkHref="/logo.png" width={90}/>
 
           <p className="pt-8 text-2xl font-bold">ABHILASH SAHU</p>
           <Menu setActive={setActive}>

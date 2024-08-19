@@ -105,10 +105,10 @@ export const Header = () => {
   return (
     <div className="max-w-7xl relative mx-auto py-20 md:py-40 px-4 w-full  left-0 top-0">
       <h1 className="text-2xl md:text-7xl font-bold dark:text-white">
-      Innovative Solutions <br /> for Modern Web <br /> Development...
+        Innovative Solutions <br /> for Modern Web <br /> Development...
       </h1>
       <p className="max-w-2xl text-base md:text-xl mt-8 dark:text-neutral-200">
-      "With a passion for technology and an eye for detail, we transform complex ideas into intuitive, user-friendly solutions. Ready to see what we can create together? Explore our portfolio and let’s build something amazing."
+        &ldquo;With a passion for technology and an eye for detail, we transform complex ideas into intuitive, user-friendly solutions. Ready to see what we can create together? Explore our portfolio and let&rsquo;s build something amazing.&rdquo;
       </p>
     </div>
   );

@@ -179,7 +179,12 @@ export const products = [
       image: "/Google Sites Logo.svg",
     },
     {
-      name: "Express js",
+      name: "Node Js",
+      percentage: "88%",
+      image: "/nodejs-icon.svg",
+    },
+    {
+      name: "Express Js",
       percentage: "89%",
       image: "/expressjs-icon.svg",
     },
@@ -187,11 +192,6 @@ export const products = [
       name: "Next JS",
       percentage: "75%",
       image: "/NextJS.svg",
-    },
-    {
-      name: "NPM",
-      percentage: "94%",
-      image: "/npm.png",
     },
     {
       name: "Git",
@@ -214,21 +214,40 @@ export const products = [
       image: "/python.png",
     },
     {
-      name: "PostgreSQL",
-      percentage: "70%",
-      image: "/PostgreSQL.svg",
+      name: "Pandas",
+      percentage: "85%",
+      image: "/pandas-svgrepo-com.svg",
     },
     {
       name: "Flask",
       percentage: "77%",
       image: "/pocoo_flask-icon.svg",
-    },{
+    },
+    {
       name: "Django",
       percentage: "77%",
       image: "/django.svg",
     },
-   
-    
+    {
+      name: "Numpy",
+      percentage: "76%",
+      image: "/numpy-1.svg",
+    },
+    {
+      name: "Tornado",
+      percentage: "75%",
+      image: "/tornado-svgrepo-com.svg",
+    },
+    {
+      name: "pyramid",
+      percentage: "72%",
+      image: "/pyramid.svg",
+    },
+    {
+      name: "Matplotlib",
+      percentage: "78%",
+      image: "/matplotlib.svg",
+    }
   ];
   
   export const experience = [

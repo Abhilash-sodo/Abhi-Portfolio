@@ -9,7 +9,7 @@ const Navbar = () => {
     <div className="relative w-full flex items-center justify-center text-white">
       <div className="fixed top-0 w-full z-[1000] shadow-md shadow-purple-500 bg-black">
         <div className="flex justify-between py-2 px-5">
-          <image xlinkHref="/logo.png" width={90}/>
+        <Image src="/logo.png" alt="Logo" width={80} height={80} layout="fixed"quality={100}  />
 
           <p className="pt-8 text-2xl font-bold">ABHILASH SAHU</p>
           <Menu setActive={setActive}>

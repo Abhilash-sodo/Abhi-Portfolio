@@ -17,7 +17,7 @@ const Skills = () => {
         className="text-white text-center text-lg p-10 md:px-[25%]"
       >
         We put your ideas and thus your wishes in the form of a unique web
-        project that inspires you and you customers.
+        project that inspires you and your customers.
       </motion.p>
       <motion.div
         variants={textVarient}
@@ -31,8 +31,11 @@ const Skills = () => {
             className="flex flex-col justify-center items-center gap-5"
           >
             <div className="flex flex-col justify-center items-center bg-purple-800/5 border-[1px] border-purple-800 w-40 h-40 p-5 rounded-xl hover:bg-purple-500/30 transition duration-1000 ease-in-out">
-              <image
-                xlinkHref={skill.image} 
+              <Image
+                src={skill.image} // Use 'src' instead of 'xlinkHref'
+                alt={skill.name}  // Provide an alt attribute
+                width={64}         // Width of the image
+                height={64}        // Height of the image
                 className="w-16 h-16 object-cover"
               />
               <h5 className="font-extrabold text-xl text-gray-500 mt-5">

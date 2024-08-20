@@ -1,3 +1,4 @@
+import { Variants } from "framer-motion";
 export const textVarient = {
     hidden: {
       opacity: 0,
@@ -13,8 +14,11 @@ export const textVarient = {
       },
     },
   };
-  
-  export const staggerContainer = (staggerChildren: any, delayChildren: any) => ({
+
+  export const staggerContainer = (
+    staggerChildren: number,
+    delayChildren: number
+  ): Variants => ({
     hidden: {},
     show: {
       transition: {

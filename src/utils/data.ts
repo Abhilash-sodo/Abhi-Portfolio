@@ -246,7 +246,7 @@ export const products = [
     {
       name: "Matplotlib",
       percentage: "78%",
-      image: "/matplotlib.svg",
+      image: "/matplotlib.png",
     }
   ];
   

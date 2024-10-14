@@ -50,7 +50,7 @@ export const products = [
     {
       title: "SmartBridge",
       link: "https://smartbridgetech.com",
-      thumbnail:
+      thumbnail:    
         "https://aceternity.com/images/products/thumbnails/new/smartbridge.png",
     },
     {
@@ -246,7 +246,7 @@ export const products = [
     {
       name: "Matplotlib",
       percentage: "78%",
-      image: "/matplotlib.png",
+      image: "/Matplotlib.png",
     }
   ];
   
